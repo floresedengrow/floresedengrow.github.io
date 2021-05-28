@@ -43,3 +43,7 @@
 .ef-level-1 {
     text-transform: uppercase;
 }
+
+.b-text a {
+    border-bottom-width: 0 !important;
+}
