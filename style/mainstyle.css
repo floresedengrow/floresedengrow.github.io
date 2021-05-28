@@ -1,0 +1,23 @@
+.menu-default .s-bg,
+.sc-w.s-hn .bgonscroll {
+    background-color: #222 !important;
+    color: white !important;
+}
+
+.s-hn.s-hn-default .cart-text {
+    display: none;
+}
+
+.s-hn.wnd-mt-classic.menu-default .cart a {
+    padding: 0 0 0 0.5rem;
+}
+
+.b-html .b-c {
+    text-align: left;
+    overflow: visible;
+}
+
+.sc-ml.s-f-edit .s-f-l-w:before {
+    color: white;
+    border-top-color: white;
+}
