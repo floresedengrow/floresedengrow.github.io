@@ -4,6 +4,9 @@ $(function () {
 
     $(".ef-level-1 li a").first().text("TODOS");
     $(".eshop-filter-select .wnd-filter-select option:selected").first().text("TODOS");
+    $(".product-price-content").text(function(i, v) {
+        return v.replace(/\,00/, "");
+    });
 
 }); 
 
