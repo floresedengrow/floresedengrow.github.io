@@ -8,6 +8,8 @@ $(function () {
         return v.replace(/\,00/, "");
     });
 
+    $(".checkout-submit-next").hover(function() { console.log('Aqui');});
+
 }); 
 
 (function() {
